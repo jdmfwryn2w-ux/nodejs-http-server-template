@@ -46,11 +46,13 @@ export default httpServerHandler({ port: 8080 });
 
 ## Configuration
 
-The `wrangler.toml` includes the necessary compatibility flags:
+The `wrangler.jsonc` includes the necessary compatibility flags:
 
-```toml
-compatibility_flags = ["nodejs_compat"]
-compatibility_date = "2025-09-03"
+```jsonc
+{
+  "compatibility_flags": ["nodejs_compat"],
+  "compatibility_date": "2025-10-08"
+}
 ```
 
 ## Scripts
